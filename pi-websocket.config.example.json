@@ -1,0 +1,40 @@
+{
+  "adminEmails": [
+    "admin@example.com"
+  ],
+  "smtp": {
+    "host": "smtp.example.com",
+    "port": 465,
+    "secure": true,
+    "starttls": false,
+    "user": "mailer@example.com",
+    "pass": "YOUR_SMTP_APP_PASSWORD",
+    "from": "mailer@example.com",
+    "fromName": "pi-websocket"
+  },
+  "cookieName": "piws_session",
+  "sessionTtlSec": 43200,
+  "otpDigits": 6,
+  "otpTtlSec": 180,
+  "otpMaxAttempts": 5,
+  "otpResendCooldownSec": 60,
+  "otpMaxSendsPerHour": 8,
+  "limitEmailUnknown": 3,
+  "limitStartPerHour": 10,
+  "blacklistTtlSec": 86400,
+  "lanSoftBlockSec": 900,
+  "allowedOrigins": [],
+  "commandRatePerMin": 30,
+  "allowExec": [],
+  "allowUpload": true,
+  "allowPublish": true,
+  "fileTtlSec": 21600,
+  "maxUploadBytes": 8388608,
+  "maxPublishBytes": 67108864,
+  "maxFiles": 200,
+  "maxStoreBytes": 536870912,
+  "uploadRatePerMin": 20,
+  "historyEntries": 200,
+  "historyByteBudget": 1500000,
+  "publishRoots": []
+}

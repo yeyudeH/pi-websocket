@@ -1,0 +1,22 @@
+# package.json files is the primary exact allowlist.
+node_modules/
+.cache/
+test/
+.github/
+pi-websocket.config.json
+pi-websocket.config.*.json
+!pi-websocket.config.example.json
+.env
+.env.*
+.pi/
+uploads/
+pi-websocket-files/
+*.jsonl
+*.log
+*.pem
+*.key
+*.bak
+*.bak-*
+*.backup
+*.tgz
+*.zip

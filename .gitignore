@@ -1,0 +1,32 @@
+# Dependencies and tool caches
+node_modules/
+.cache/
+
+# Private configuration and credentials
+pi-websocket.config.json
+pi-websocket.config.*.json
+!pi-websocket.config.example.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Runtime content and generated artifacts
+.pi/
+uploads/
+pi-websocket-files/
+.test-artifacts/
+coverage/
+dist/
+*.log
+*.jsonl
+*.tgz
+*.zip
+
+# Local backups and editor files
+*.bak
+*.bak-*
+*.backup
+*~
+.DS_Store
